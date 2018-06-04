@@ -32,7 +32,7 @@ def policy_evaluation(env, policy, gamma=1, theta=1e-8):
 
 # 动作值的估值
 
-![](images/estimation action.png)
+![](images/estimation-action.png)
 
 
 
@@ -53,7 +53,7 @@ def q_from_v(env, V, s, gamma=1):
 
 
 
-![](images/policy improvement.png)
+![](images/policy-improvement.png)
 
 ```python
 def policy_improvement(env, V, gamma=1):
@@ -75,7 +75,7 @@ def policy_improvement(env, V, gamma=1):
 
 # 策略迭代
 
-![](images/policy iteration.png)
+![](images/policy-iteration.png)
 
 ```python
 import copy
@@ -107,11 +107,11 @@ def policy_iteration(env, gamma=1, theta=1e-8):
 
 
 
-![](images/truncated policy evaluation.png)
+![](images/truncated-policy-evaluation.png)
 
 
 
-![](images/truncated policy iteration.png)
+![](images/truncated-policy-iteration.png)
 
 
 
@@ -151,7 +151,7 @@ def truncated_policy_iteration(env, max_it=1, gamma=1, theta=1e-8):
 
 # 值迭代
 
-![](images/value iteration.png)
+![](images/value-iteration.png)
 
 ```python
 def value_iteration(env, gamma=1, theta=1e-8):
