@@ -1,6 +1,6 @@
 # 迭代策略评估
 
-![](images/iterative policy.png)
+![iterative policy](images/iterative policy.png)
 
 ```python
 import numpy as np
